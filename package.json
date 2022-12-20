@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-odev6",
+  "version": "1.0.0",
+  "description": "patika.dev nodejs dersi 6. ödevi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfrn/nodejs-odev6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfrn/nodejs-odev6/issues"
+  },
+  "homepage": "https://github.com/tfrn/nodejs-odev6#readme",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0"
+  }
+}

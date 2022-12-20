@@ -1,7 +1,3 @@
-# nodejs-odev6
-patika.dev nodejs dersi 6. ödevi
-
-```js
 const Koa = require('koa');
 const KoaRouter = require("koa-router");
 const app = new Koa();
@@ -14,5 +10,3 @@ router.get("/iletisim", ctx=>(ctx.body = "iletisim sayfasına hoş geldiniz."));
 
 app.use(router.routes()).use(router.allowedMethods());
 app.listen(3000);
-
-```
